@@ -5,24 +5,26 @@ public class ShapeExam {
         r.area(5, 5);
     }
 }
+
 class Shape{
     String name;
-    /*1) 기본 생성자 생성 : “도형 생성” 출력 */
+    /* 1) 기본 생성자 생성 : “도형 생성” 출력 */
     public Shape() {
         // TODO Auto-generated constructor stub
         System.out.println("도형 생성");
     }
-    /*2) area 함수 생성 : 반환타입 x, 매개변수 정수형 변수 w,h 2개(가로, 세로 값)
+    /* 2) area 함수 생성 : 반환타입 x, 매개변수 정수형 변수 w,h 2개(가로, 세로 값)
     -> "도형의 가로는 w이고, 세로는 h이다" 출력 */
     public void area(int w,int h) {
         System.out.println("도형의 가로는 " + w +"이고, 세로는 " + h + "이다.");
     }
 
 }
-/*3) Shape 클래스를 상속받는 Ract 클래스 생성 */
+
+/* 3) Shape 클래스를 상속받는 Ract 클래스 생성 */
 class Ract extends Shape
 {
-    /*4) 문자열 변수 1개를 매개변수로 받아오는 생성자 생성
+    /* 4) 문자열 변수 1개를 매개변수로 받아오는 생성자 생성
        - 받아온 문자열 변수를 name 변수에 넣어줌
        - "도형은 name 입니다" 출력 */
     String name;
@@ -31,7 +33,6 @@ class Ract extends Shape
         this.name = name;
         System.out.println("도형은 " + name + "입니다.");
     }
-
 
     public void area(int w, int h) {
         super.area(w, h);
@@ -42,8 +43,4 @@ class Ract extends Shape
             System.out.println("직사각형 / 넓이는 : " + w*h);
         }
     }
-
-
-
-
 }

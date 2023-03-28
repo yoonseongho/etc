@@ -39,7 +39,6 @@ class FruitBuyer {
     }
 }
 
-
 class FruitSales {
     public static void main(String[] args) {
         FruitSeller seller = new FruitSeller();

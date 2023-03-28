@@ -1,5 +1,3 @@
-package Chapter;
-
 import java.util.Scanner;
 
 public class BookManager {
