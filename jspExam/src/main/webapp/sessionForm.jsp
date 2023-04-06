@@ -8,9 +8,9 @@
 </head>
 <body>
 	<form method="post" action="sessionTest1.jsp">
-		id:<input type="text" name="id"/><p/>
-		password:<input type="password" name="pw"/><p/>
-		<input type="submit" value="로그인"/>
-	</form>
+		id : <input type="text" name="id">
+		pw : <input type="password" name="pw">
+		<input type="submit" value="로그인">
+ 	</form>
 </body>
 </html>
